@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+  }
+  
+  body {
+    background-color: #1c1c1c;
+    color: #f4e4c1;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('https://wallpapers.com/images/hd/gryffindor-common-room-o8le0y1acetcp350.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background-color: #a30000;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff0000;
+  }
+  
+  .sobre {
+    padding: 60px 20px;
+    background-color: #2e2e2e;
+  }
+  
+  .sobre .container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sobre img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .sobre h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .caracteristicas {
+    padding: 40px 20px;
+    background-color: #3a0505;
+    text-align: center;
+  }
+  
+  .caracteristicas h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+  }
+  
+  .caracteristicas ul {
+    list-style: none;
+  }
+  
+  .caracteristicas li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .depoimentos {
+    background-color: #1c1c1c;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .depoimentos h2 {
+    color: #ffcc00;
+    margin-bottom: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .card h3 {
+    color: #ff4c4c;
+    margin-top: 10px;
+  }
+  
+  .cta-final {
+    background-color: #6b0000;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .cta-final h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }

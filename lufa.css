@@ -1,0 +1,43 @@
+body {
+    background-color: #2e2500;
+    color: #fff5c1;
+    font-family: 'Georgia', serif;
+    text-align: center;
+   
+  }
+  
+  .hero {
+    background-image: url('https://i.redd.it/slight-changes-in-the-design-of-the-hufflepuff-common-room-v0-ooeoyumo6fz91.png?width=3872&format=png&auto=webp&s=d39416c4fea4a79384007a159d98f6789056ebf4');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #ffda44;
+  }
+  
+  .btn {
+    background-color: #a68900;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+.caracteristicas{
+    justify-content: center;
+    text-align: center;
+    padding-right: 40px;
+}
+  

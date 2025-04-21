@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+  }
+  
+  body {
+    background-color: #1c1c1c;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 60px 20px;
+  }
+  
+  .hero {
+    background-image: url('https://deltiasgaming.com/wp-content/uploads/2022/12/Hogwarts-Legacy-Ravenclaw.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #0003c7;
+    -webkit-text-stroke: 2px white;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background-color: #0003c7;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .sobre .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .sobre img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .caracteristicas ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    justify-content: center;
+  }
+  
+  .caracteristicas li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .card h3 {
+    color: #2d70ff;
+    margin-top: 10px;
+  }
+  
+  .cta-final h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2d70ff;
+  }
+  
+  .cta-final p {
+    margin-bottom: 20px;
+  }
+  .caracteristicas{
+    text-align: center;
+  }
